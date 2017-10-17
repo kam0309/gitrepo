@@ -7,14 +7,19 @@
 
 using namespace std;
 
-//int liczba, krok;
+//int liczba, krok; //zmienne globalne
 
-int zwieksz() {
-    int liczba, krok; //zmienne lokalne 
+int zwieksz(int liczba,int krok) {
     liczba = liczba + krok;
-    return liczba;
+    krok = 3 * krok;
+    return krok;
     }
     
+void zwieksz2(int &a, int & b) {
+    a = a + b;
+    b = 3 * b;
+    
+}
 
 int main(int argc, char **argv)
 {
@@ -22,9 +27,14 @@ int main(int argc, char **argv)
     cout << "Podaj liczbę i krok:"; 
     cin >> liczba >> krok;
     
-    cout << "Liczba i krok: " << liczba <<" "<< krok<< endl;
-   //zwieksz();
-    cout <<"Liczba i krok: " << zwieksz() <<" "<< krok<< endl;
+    cout << "Liczba i krok: " << liczba <<" "<< &liczba<< endl;
+   //zwieksz2(liczba, krok);
+/*
+zwieksz2(liczba, krok);
+cout <<"Liczba i krok: " << liczba <<" "<< krok<< endl;
+
+*/
+    
 	return 0;
 }
 
