@@ -5,14 +5,12 @@
 
 def potega_it(x,n):
 
-    float wynik = 1
-    int i = 1
-    float x
-   int ns
-    for i in range(n):
-    {
-        wynik = wynik * x
-    }
+    i =1 
+    wynik =1
+    while i <= n:
+        wynik = wynik *x
+        i = i + i
+       
     return wynik
 
 
