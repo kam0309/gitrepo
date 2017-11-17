@@ -17,6 +17,10 @@ def potega_it(x,n):
 def main(args):
     x = float(input("Podaj podstawe potęgi: "))
     n = int(input("Podaj wykładnik potęgi: "))
+    assert potega_it(2,2) == 4
+    assert potega_it(3,2) == 9
+    assert potega_it(4,2) == 16
+    assert potega_it(5,2) == 25
     print("Wynik: ")
     print(potega_it(x, n))
     return 0

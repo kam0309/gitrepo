@@ -13,8 +13,13 @@ def silnia_it(n):
 
 def main(args):
     """Funkcja główna"""
-    n = int(input("Podaj liczbę:"))
-    print(silnia_it (n))
+    n = int(input('Podaj liczbę:'))
+    assert type(n) == int
+    assert silnia_it(0) == 1
+    assert silnia_it(1) == 1
+    assert silnia_it(2) == 2
+    assert silnia_it(3) == 6
+    print('Silnia dla {:d}: {;d}'. format(n , silnia)
     return 0
 
 
