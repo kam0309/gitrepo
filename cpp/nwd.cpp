@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int nwd(int a,int b)
+int nwd_1(int a,int b)
 {
     //int a,b;
     while (a != b)
@@ -17,6 +17,13 @@ int nwd(int a,int b)
                 b = b - a;
     return a;
         }
+int nwd_2(int a, int b)
+{
+    while (a > 0)
+            a = a % b;
+            b = b - a;
+    return b;
+        }
 int main(int argc, char **argv)
 {
     int a , b;
@@ -24,7 +31,7 @@ int main(int argc, char **argv)
     cin >> a ;
     cout << "Podaj druga liczbe" << endl;
     cin >> b;
-    cout <<"Najwiekszy wspolny dzielnik: " << nwd(a,b) << endl;
+    cout <<"Najwiekszy wspolny dzielnik: " << nwd_2(a,b) << endl;
 	return 0;
 }
 
