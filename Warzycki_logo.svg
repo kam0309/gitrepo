@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -25,18 +26,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="334.07092"
-     inkscape:cy="560"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="414.47669"
+     inkscape:cy="554.50992"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1853"
-     inkscape:window-height="1021"
-     inkscape:window-x="67"
-     inkscape:window-y="27"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <sodipodi:guide
        position="88.370831,149.75417"
@@ -57,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,21 +80,25 @@
        aria-label="~"
        transform="matrix(1.317916,0,0,1.3024618,1011.8093,-841.33546)"
        style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:0.2645503;stroke:#090003;stroke-width:1.22348893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82539685"
-       id="flowRoot925">
-      <path
-         d="m -635.46875,827.80078 v 16.6875 q -9.84375,7.40625 -18.28125,10.59375 -8.34375,3.1875 -17.4375,3.1875 -10.3125,0 -24,-5.53125 -1.03125,-0.375 -1.5,-0.5625 -0.65625,-0.28125 -2.0625,-0.75 -14.53125,-5.8125 -23.34375,-5.8125 -8.25,0 -16.3125,3.65625 -8.0625,3.5625 -17.25,11.34375 v -16.6875 q 9.84375,-7.40625 18.1875,-10.59375 8.4375,-3.28125 17.53125,-3.28125 10.3125,0 24.09375,5.625 0.9375,0.375 1.40625,0.5625 0.75,0.28125 2.0625,0.75 14.53125,5.8125 23.34375,5.8125 8.0625,0 15.9375,-3.5625 7.96875,-3.5625 17.625,-11.4375 z"
-         id="path955"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g960"
-       style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:0.2645503;stroke:#090003;stroke-width:1.22348893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82539685"
-       transform="matrix(1.317916,0,0,1.3024618,1011.8093,-841.33546)"
-       aria-label="~">
-      <path
-         inkscape:connector-curvature="0"
-         id="path958"
-         d="m -635.46875,827.80078 v 16.6875 q -9.84375,7.40625 -18.28125,10.59375 -8.34375,3.1875 -17.4375,3.1875 -10.3125,0 -24,-5.53125 -1.03125,-0.375 -1.5,-0.5625 -0.65625,-0.28125 -2.0625,-0.75 -14.53125,-5.8125 -23.34375,-5.8125 -8.25,0 -16.3125,3.65625 -8.0625,3.5625 -17.25,11.34375 v -16.6875 q 9.84375,-7.40625 18.1875,-10.59375 8.4375,-3.28125 17.53125,-3.28125 10.3125,0 24.09375,5.625 0.9375,0.375 1.40625,0.5625 0.75,0.28125 2.0625,0.75 14.53125,5.8125 23.34375,5.8125 8.0625,0 15.9375,-3.5625 7.96875,-3.5625 17.625,-11.4375 z" />
-    </g>
+       id="flowRoot925" />
+    <path
+       style="fill:none;stroke:none;stroke-width:0.3121897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 31.675422,277.77146 C 113.80246,230.17125 138.88787,300.64233 222.92789,271.18117"
+       id="path828"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:35.42684937px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.88567126"
+       id="text865"
+       transform="matrix(0.68254691,0,0,0.72612124,17.191094,-41.558346)"><textPath
+         xlink:href="#path828"
+         id="textPath867"><tspan
+   style="stroke-width:0.88567126"
+   id="tspan863"><tspan
+     style="stroke-width:0.88567126"
+     id="tspan861"
+     y="369.16309"
+     x="17.687773">Kamil WarzYyvki</tspan></tspan></textPath></text>
   </g>
 </svg>
